@@ -24,6 +24,10 @@
     font-size: medium;
     color: #333333;
   }
+  span a{
+
+    font-size: medium;
+  }
 
   a{
     text-decoration:none;
