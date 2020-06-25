@@ -1,0 +1,227 @@
+<html>
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+
+      <div id="content" class="main-menu">
+
+         <!-- CEDULA-->
+         <div id="cedula-menu" class="sub-menu">
+            <label>
+               <input type="checkbox" id="cedula-checkbox">
+               <div class="head">
+                  <span> Cédula <i class="fas fa-id-card"> </i> :</span>
+               </div>
+            </label>
+            <div id="cedula-layers">
+               <label>
+                  <input type="radio" name="cedula" value="0">
+                  <div class="box">
+                     <span>0</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="cedula" value="1">
+                  <div class="box">
+                     <span>1</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="cedula" value="2">
+                  <div class="box">
+                     <span>2</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="cedula" value="3">
+                  <div class="box">
+                     <span>3</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="cedula" value="4">
+                  <div class="box">
+                     <span>4</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="cedula" value="5">
+                  <div class="box">
+                     <span>5</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="cedula" value="6">
+                  <div class="box">
+                     <span>6</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="cedula" value="7">
+                  <div class="box">
+                     <span>7</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="cedula" value="8">
+                  <div class="box">
+                     <span>8</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="cedula" value="9">
+                  <div class="box">
+                     <span>9</span>
+                  </div>
+               </label>
+            </div>
+         </div>
+         <!-- PLACA-->
+         <div id="placa-menu" class="sub-menu">
+            <label>
+               <input type="checkbox" id="placa-checkbox">
+               <div class="head">
+                  <span> Placa <i class="fas fa-motorcycle"> </i> :</span>
+               </div>
+            </label>
+            <div id="placa-layers">
+               <label>
+                  <input type="radio" name="placa" value="0">
+                  <div class="box">
+                     <span>0</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="placa" value="1">
+                  <div class="box">
+                     <span>1</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="placa" value="2">
+                  <div class="box">
+                     <span>2</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="placa" value="3">
+                  <div class="box">
+                     <span>3</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="placa" value="4">
+                  <div class="box">
+                     <span>4</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="placa" value="5">
+                  <div class="box">
+                     <span>5</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="placa" value="6">
+                  <div class="box">
+                     <span>6</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="placa" value="7">
+                  <div class="box">
+                     <span>7</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="placa" value="8">
+                  <div class="box">
+                     <span>8</span>
+                  </div>
+               </label>
+               <label>
+                  <input type="radio" name="placa" value="9">
+                  <div class="box">
+                     <span>9</span>
+                  </div>
+               </label>
+            </div>
+         </div>
+         <!-- DIAS-->
+         <div id="dias-menu" class="sub-menu" style="display:none">
+            <label>
+               <input type="checkbox" id="placa-checkbox">
+               <div class="head">
+                  <span> Días <i class="fas fa-calendar-alt"> </i> : </span>
+               </div>
+            </label>
+            <div id="dias-layers">
+              
+                  <div class="day">
+                     <div class="box_no" id="day-0"></div>
+                  </div>
+   
+               <label>
+                  <div class="day">
+                     <div class="box_yes" id="day-1"></div>
+                  </div>
+               </label>
+               <label>
+                  <div class="day">
+                     <div class="box_no" id="day-2"></div>
+                  </div>
+               </label>
+               <label>
+                  <div class="day">
+                     <div class="box_no" id="day-3"></div>
+                  </div>
+               </label>
+               <label>
+                  <div class="day">
+                     <div class="box_no" id="day-4"></div>
+                  </div>
+               </label>
+               <label>
+                  <div class="day">
+                     <div class="box_no" id="day-5"></div>
+                  </div>
+               </label>
+               <label>
+                  <div class="day">
+                     <div class="box_yes" id="day-6"></div>
+                  </div>
+               </label>
+               <label>
+                  <div class="day">
+                     <div class="box_yes" id="day-7"></div>
+                  </div>
+               </label>
+               <label>
+                  <div class="day">
+                     <div class="box_yes" id="day-8"></div>
+                  </div>
+               </label>
+               <label>
+                  <div class="day">
+                     <div class="box_yes" id="day-9"></div>
+                  </div>
+               </label>
+               <label>
+                  <div class="day">
+                     <div class="box_yes" id="day-10"></div>
+                  </div>
+               </label>
+            </div>
+         </div>
+        
+         <center><a href="https://www.instagram.com/jeanraco/?hl=es-la"><p>&copy; Ing. Jesús Ramírez </p></a></center>
+      
+         <script type="text/javascript" src="js/script.js"></script>
+      </div>
+   </body>
+</html>
